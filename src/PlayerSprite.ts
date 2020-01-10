@@ -15,19 +15,19 @@ export class PlayerSprite extends Phaser.Physics.Arcade.Sprite {
         this.hp = 5;
         this.points = 0
     }
-    addHP(i: integer) {
+    addHP(i: number) {
         this.hp += i;
     }
-    lostHP(i: integer) {
+    lostHP(i: number) {
         this.hp -= i;
     }
     checkHP() {
         return this.hp
     }
-    addPoints(i: integer) {
+    addPoints(i: number) {
         this.points += i;
     }
-    lostPoints(i: integer) {
+    lostPoints(i: number) {
         this.points -= i;
     }
     checkPoints() {

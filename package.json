@@ -1,4 +1,17 @@
-{
+{  "name": "Cave-Tome",
+  "version": "1.0.0",
+  "description": "Platform Game build with Phaser",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "keywords": [
+    "game",
+    "phaser"
+  ],
+  "author": "Dawid Prus",
+  "license": "ISC",
   "devDependencies": {
     "typescript": "^3.7.4"
   }
